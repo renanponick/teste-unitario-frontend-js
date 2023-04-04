@@ -9,6 +9,7 @@ const LoginScreen = () => {
   return (
     <View style={styles.container}>
       <Input
+        testID="Email"
         label="Email"
         placeholder="Digite seu email"
         leftIcon={{ type: 'font-awesome', name: 'envelope' }}
@@ -16,6 +17,7 @@ const LoginScreen = () => {
         onChangeText={(text) => setEmail(text)}
       />
       <Input
+        testID="Senha"
         label="Senha"
         placeholder="Digite sua senha"
         leftIcon={{ type: 'font-awesome', name: 'lock' }}
